@@ -29,31 +29,43 @@ insurance-kb/
 
 ## 📑 Contents
 
-### 1. `policies.json`
+### 1. `Policies.json`
 - Contains **24 mock insurance policies**.  
 - Structured in strict JSON format (UTF-8).  
 - Includes: policy ID, type, name, coverage, premium, riders, eligibility, exclusions.
 
-### 2. `faqs.md`
-- Contains **50 Insurance FAQs**.  
+### 2. `Insurance FAQs - English.txt`
+- Contains **50 Insurance FAQs in English**.  
 - Categories:  
   - 🏥 Health Insurance  
   - 💡 Life Insurance  
   - 🚗 Motor Insurance  
   - ⚖️ General Insurance Basics  
   - ➕ Riders & Add-ons  
-- Includes **Hindi translations** for multilingual support.
 
-### 3. `rules.txt`
-- Defines **tone switching** (formal, friendly, persuasive).  
-- Contains **compliance & safety rules** for the agent.  
+### 3. `Insurance FAQs - Hindi.txt`
+- Contains **50 Insurance FAQs in Hindi**.  
+- Covers the same categories as English version.  
+- Provides **multilingual support** for agents.
+
+### 4. `Tone Switching Guide.txt`
+- Defines **tone switching rules** (formal, friendly, persuasive).  
+- Guides the AI agent in adapting tone to user context.  
+
+### 5. `Compliance & Safety Rules.txt`
+- Contains **compliance requirements and safety checks**.  
+- Ensures legal, ethical, and safe responses.  
+
+### 6. `Multilingual Support.txt`
+- Notes and instructions for handling **multiple languages**.  
+- Guidelines on mixing Hindi + English responses where needed.  
 
 ---
 
 ## 🌐 Integration with Inya AI
 
 To connect this KB with Inya AI:  
-1. Copy the **raw GitHub file URLs** (e.g. `https://raw.githubusercontent.com/yourusername/insurance-kb/main/faqs.md`).  
+1. Copy the **raw GitHub file URLs** (e.g. `https://raw.githubusercontent.com/yourusername/insurance-kb/main/Policies.json`).  
 2. In **Inya AI → Knowledge Base → Add Source → API/Endpoint**, paste the URLs.  
 3. Inya AI will fetch and sync the KB automatically.  
 
@@ -61,7 +73,5 @@ To connect this KB with Inya AI:
 
 ## ✅ Notes
 - All files are **UTF-8 encoded** for multilingual support.  
-- `policies.json` is kept strictly valid (no comments, no trailing commas).  
+- `Policies.json` is kept strictly valid (no comments, no trailing commas).  
 - Updating any file here will automatically update the linked KB in Inya AI.  
-
----

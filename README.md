@@ -5,20 +5,26 @@ It includes policy details, FAQs, tone switching rules, and compliance guideline
 Designed for integration with **Inya AI**.
 
 ---
-
 ## 📂 Repository Structure
 
 insurance-kb/
 
 │
 
-├── policies.json   # Mock policy catalog (structured data in JSON)
+├── Policies.json                 # Mock policy catalog (structured data in JSON)
 
-├── faqs.md         # Insurance FAQs (Health, Life, Motor, General, Riders)
+├── Insurance FAQs - English.txt  # FAQs in English
 
-├── rules.txt       # Tone switching & compliance rules
+├── Insurance FAQs - Hindi.txt    # FAQs in Hindi
 
-└── README.md       # This file
+├── Tone Switching Guide.txt      # Tone switching rules for agent
+
+├── Compliance & Safety Rules.txt # Compliance requirements and safety checks
+
+├── Multilingual Support.txt      # Notes for handling multiple languages
+
+└── README.md                     # This file
+
 
 
 ## 📑 Contents
